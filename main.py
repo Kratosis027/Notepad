@@ -17,7 +17,7 @@ def user_input():
         srt_list = input('В каком списке произовдим сортировку?\nМенеджеры(М)/Работники Отделов(О)\n')
         if srt_list.upper() == 'М' or srt_list.upper() == 'МЕНЕДЖЕРЫ':
             sort_file(manager_file)
-        if srt_list.upper() == 'О' or srt_list.upper() == 'РАБОТНИКИ ОТДЕЛОВА':
+        if srt_list.upper() == 'О' or srt_list.upper() == 'РАБОТНИКИ ОТДЕЛОВ':
             sort_file(worker_file)
     if note_action == 'ПОИСК' or note_action == 'П':
         print('Данная функция ещё не введена')
